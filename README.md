@@ -11,8 +11,6 @@ This is a React-based application where users can be added, assigned roles, and 
 ## Tech Stack
 - **React**: In this project, React is used to create dynamic views and handle the user interaction with the application, such as adding, editing, and deleting users.
 - **CSS**: In this project, basic CSS is used for layout, positioning, and styling of form elements, buttons, and tables.
-The app features a clean and modern design with responsive elements that adapt to different screen sizes.
-Custom styling for interactive elements like buttons, status labels, and table rows are applied to enhance the user experience.
 -**JavaScript (ES6+)**:This includes handling user input, updating the state, toggling user status, and managing the overall flow of the app.
 Modern JavaScript (ES6 and above) features like arrow functions, destructuring, and template literals are used throughout the code for cleaner and more concise logic.
 -**HTML (via JSX)**:  is the structure and skeleton of the app, which is rendered dynamically using React.

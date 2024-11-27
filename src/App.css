@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(270deg, #be22ff 20%, #ff279c 50%, #ff981f 80%);
+}
+
+.login-container,
+.admin-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-container {
+    background-image: linear-gradient(270deg, rgb(247, 10, 235), rgb(255, 0, 0));
+}
+
+.admin-container {
+    background-image: linear-gradient(to left, rgb(9, 240, 105), rgb(2, 216, 240));
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+input, select, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    font: bolder;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to left, rgb(227, 247, 3), rgb(10, 255, 190));
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+  background-color: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #f7f7f7;
+    color: #555;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.toggle-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.toggle-button.inactive {
+    background-color: #dc3545;
+}
+
+.logout-button {
+    width: 100px;
+    height: max-content;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
